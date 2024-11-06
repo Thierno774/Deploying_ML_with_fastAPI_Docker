@@ -193,7 +193,7 @@ FastAPI has a built-in client to interact with the deployed server.
 ### Using `curl` to send request
 `curl` command can be used to send the inference request to deployed server.
 ```bash
-curl -X POST http://localhost:80/predict \
+curl -X POST http://localhost:8000/predict \
     -d @./loan-examples/1.json \
     -H "Content-Type: application/json"
 ```
